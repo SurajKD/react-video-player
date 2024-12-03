@@ -170,7 +170,7 @@ const VideoPlayer: React.FC = () => {
     }
   };
   return (
-    <div style={{ position: 'relative', width: '100%', height: 'auto', margin: 'auto', background: 'black', aspectRatio: "16/9" }}>
+    <div style={{ position: 'relative', width: '100%', height: 'auto', margin: 'auto', background: 'black', aspectRatio: "16/9", maxWidth:"700px" }}>
       <video
         ref={videoRef}
         controls
