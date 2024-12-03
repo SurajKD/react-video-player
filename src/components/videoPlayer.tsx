@@ -20,13 +20,13 @@ const VideoPlayer: React.FC = () => {
 
   const ads: AdData[] = [
     {
-      src: 'http://content.jwplatform.com/manifests/vM7nH0Kl.m3u8',
+      src: 'https://sample.vodobox.net/skate_phantom_flex_4k/skate_phantom_flex_4k.m3u8',
       duration: 30,
       skippableAfter: 5,
-      timestamp: 5, // Play this ad at 10 seconds
+      timestamp: 10, // Play this ad at 10 seconds
     },
     {
-      src: 'http://content.jwplatform.com/manifests/vM7nH0Kl.m3u8',
+      src: 'https://sample.vodobox.net/skate_phantom_flex_4k/skate_phantom_flex_4k.m3u8',
       duration: 15,
       skippableAfter: 5,
       timestamp: 60, // Play this ad at 30 seconds
@@ -34,7 +34,7 @@ const VideoPlayer: React.FC = () => {
   ];
 
   const mainVideoData = {
-    src: 'http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8', // Replace with your `.m3u8` URL
+    src: 'https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8', // Replace with your `.m3u8` URL
     subtitles: '/subs.vtt'
   };
 
